@@ -1,0 +1,31 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.height {
+    height: 100vh;
+}
+.game {
+    width: 29%;
+    border: 2px solid rgba(128, 98, 0, 0.2);
+    border-radius: 8px;
+    display: flex;
+    padding: 1.5rem 0;
+}
+.circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: coral;
+    margin: 15px;
+}
+.circle img {
+    width: 75px;
+    cursor: pointer;
+}
